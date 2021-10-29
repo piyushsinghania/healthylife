@@ -6,6 +6,7 @@
 body {
   background: #7edee9;
   font-family: "Alata", sans-serif;
+  font-size: 16px;
 }
 html {
   scroll-behavior: smooth;
@@ -20,7 +21,7 @@ html {
   display: flex;
   flex-direction: row;
   background: white;
-  font-family: "Alata", sans-serif;
+  font-family: "Lato", sans-serif;
   /* border: 2px solid blue; */
 }
 .one {
@@ -88,7 +89,7 @@ html {
   background-color: transparent;
   /* box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1); */
   position: absolute;
-  width: 98%;
+  width: 92%;
   z-index: 4;
   margin-left: -50%;
   /* border: 2px solid black; */
@@ -137,7 +138,7 @@ html {
 }
 .header .menu button {
   height: 35px;
-  width: 150px;
+  width: 170px;
   background: #30c9e8;
   margin: 10px;
   color: white;
@@ -343,7 +344,7 @@ html {
   text-align: center;
   /* border: 2px solid red; */
   height: 380px;
-  width: 320px;
+  width: 380px;
   margin: 20px 10px;
   margin-top: 40px;
   border-top-left-radius: 0.5em;
@@ -416,7 +417,7 @@ html {
 }
 #services button {
   height: 35px;
-  width: 150px;
+  width: 180px;
   background: #30c9e8;
   margin: 20px;
   color: white;
@@ -536,13 +537,10 @@ html {
   margin: 40px 5px;
   /* border: 2px solid black; */
   height: 500px;
-  width: 200px;
+  width: 225px;
   display: flex;
   flex-direction: column;
   z-index: 4;
-}
-.plan-card:hover {
-  box-shadow: 1px 1px rgb(202, 200, 200);
 }
 #plan-1 {
   background: white;
@@ -683,7 +681,7 @@ html {
   padding: 0px 0px;
   background: white;
   height: 500px;
-  width: 98.2%;
+  width: 97.6%;
   margin: 0px auto;
   /* border: 2px solid black; */
   text-align: center;
@@ -786,7 +784,7 @@ html {
   background: white;
   height: 650px;
   width: 96%;
-  padding: 10px 14px;
+  padding: 10px 12px;
   margin: 0px auto;
   text-align: center;
 }
@@ -944,7 +942,8 @@ html {
   float: right;
   margin-right: 100px;
   height: 35px;
-  width: 150px;
+  width: 170px;
+  text-align: center;
   background: #30c9e8;
   color: white;
   border-radius: 5px;
